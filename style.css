@@ -1,0 +1,243 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('Minecraftia-Regular.ttf');
+}
+
+body {
+  font-family: 'Minecraft', sans-serif;
+}
+
+@keyframes gradiente-animado {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.html, body {
+    margin: 0px;
+    padding: 10px;
+    margin-top: -50px;
+    margin-right: 10px;
+    background: linear-gradient(to top, black 45%, rgb(61, 199, 253));
+    min-height: 100vh;
+    font-size: 12px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-top: 70px;
+}
+
+p{
+    color: white;
+}
+
+button{
+    background: #f7b6c8;
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover{
+    background: #ee9fb7;
+}
+
+.niIdea{
+    color: white;
+    gap: 10px;
+}
+
+body {
+  position: relative;  
+  background-image: url('https://wallpapercave.com/wp/wp15613426.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: -1;
+}
+
+a{
+    color: white;
+}
+
+button:hover a{
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.video{
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.blocks-page {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px 12px 80px;
+}
+
+.blocks-page h1 {
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.blocks-page main {
+    width: 100%;
+}
+
+.blocks {
+    width: min(850px, 100%);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    margin: 35px auto;
+}
+
+
+.clickable-block {
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: #f7b6c8;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.clickable-block:hover,
+.clickable-block:focus-visible {
+    transform: translateY(-6px);
+    background: #ee9fb7;
+    outline: none;
+}
+
+.block-number {
+    display: block;
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block-label {
+    margin-top: 12px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.reason {
+    width: min(700px, 88vw);
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 24px auto;
+    padding: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.reason h2 {
+    color: white;
+}
+
+.back-link {
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 10px 18px;
+    border: 2px solid white;
+    border-radius: 999px;
+    background: #f7b6c8;
+    color: white;
+    text-decoration: none;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+    background: #ee9fb7;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .clickable-block {
+        min-height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blocks-page {
+        padding: 12px 10px 80px;
+    }
+
+    .blocks-page h1 {
+        margin-top: 12px;
+        font-size: 1.35rem;
+    }
+
+    .blocks-page > main > p {
+        line-height: 1.8;
+    }
+
+    .blocks {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin: 24px auto;
+    }
+
+    .clickable-block {
+        min-height: 105px;
+    }
+
+    
+}
