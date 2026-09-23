@@ -25,16 +25,26 @@ body {
 }
 
 h1{
-    color: white;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
     margin-top: 70px;
 }
 
 p{
-    color: white;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
 }
 
 button{
-    background: #f7b6c8;
+    background: black;
     color: white;
     font-family: 'Minecraft', sans-serif;
     text-align: center;
@@ -48,11 +58,16 @@ button{
 }
 
 button:hover{
-    background: #ee9fb7;
+    background: #222;
 }
 
 .niIdea{
-    color: white;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
     gap: 10px;
 }
 
@@ -89,6 +104,12 @@ body{
 
 button a {
     color: white;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
     text-decoration: none;
 }
 
@@ -96,7 +117,12 @@ footer{
     position: fixed;
     bottom: 10px;
     font-size: 10px;
-    color: white;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
 }
 
 .video{
@@ -143,7 +169,7 @@ footer{
     padding: 16px;
     border: 2px solid white;
     border-radius: 12px;
-    background: #f7b6c8;
+    background: black;
     color: white;
     text-decoration: none;
     transition: transform 0.2s ease, background 0.2s ease;
@@ -152,7 +178,7 @@ footer{
 .clickable-block:hover,
 .clickable-block:focus-visible {
     transform: translateY(-6px);
-    background: #ee9fb7;
+    background: #222;
     outline: none;
 }
 
@@ -163,12 +189,24 @@ footer{
     line-height: 1;
     font-weight: bold;
     text-align: center;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
 }
 
 .block-label {
     margin-top: 12px;
     font-size: 0.8rem;
     text-align: center;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
 }
 
 .reason {
@@ -183,7 +221,12 @@ footer{
 }
 
 .reason h2 {
-    color: white;
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
 }
 
 .back-link {
@@ -194,14 +237,23 @@ footer{
     padding: 10px 18px;
     border: 2px solid white;
     border-radius: 999px;
-    background: #f7b6c8;
+    background: black;
     color: white;
     text-decoration: none;
 }
 
+.back-link span {
+    background: linear-gradient(to right, white, #f7b6c8, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradiente-animado 3s ease infinite;
+}
+
 .back-link:hover,
 .back-link:focus-visible {
-    background: #ee9fb7;
+    background: #222;
     color: white;
 }
 
